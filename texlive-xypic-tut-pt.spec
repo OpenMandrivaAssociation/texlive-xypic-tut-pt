@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xypic-tut-pt.doc.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive xypic-tut-pt package.
@@ -28,7 +26,6 @@ TeXLive xypic-tut-pt package.
 %doc %{_texmfdistdir}/doc/generic/xypic-tut-pt/grafico.eps
 %doc %{_texmfdistdir}/doc/generic/xypic-tut-pt/xypic-tutorial.pdf
 %doc %{_texmfdistdir}/doc/generic/xypic-tut-pt/xypictutorial.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,5 +36,3 @@ TeXLive xypic-tut-pt package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
