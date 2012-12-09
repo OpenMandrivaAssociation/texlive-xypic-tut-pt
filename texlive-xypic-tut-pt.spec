@@ -36,3 +36,16 @@ TeXLive xypic-tut-pt package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070301-2
++ Revision: 757727
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070301-1
++ Revision: 719957
+- texlive-xypic-tut-pt
+- texlive-xypic-tut-pt
+- texlive-xypic-tut-pt
+
