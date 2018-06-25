@@ -5,7 +5,7 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-xypic-tut-pt
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	A tutorial for XY-pic, in Portuguese
 Group:		Publishing
