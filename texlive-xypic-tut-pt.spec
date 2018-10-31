@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-xypic-tut-pt
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	A tutorial for XY-pic, in Portuguese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/portuguese/xypic-tutorial
