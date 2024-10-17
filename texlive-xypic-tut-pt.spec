@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A tutorial for XY-pic, in Portuguese
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/portuguese/xypic-tutorial
+URL:		https://www.ctan.org/tex-archive/info/portuguese/xypic-tutorial
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xypic-tut-pt.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xypic-tut-pt.doc.r%{version}.tar.xz
